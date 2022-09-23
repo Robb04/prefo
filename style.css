@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*body1{
+    background-image: url(./images/future.jpg);
+}*/
+/*--------- page d'accueil -------*/
+.body1{
+    background-image: url(./images/horizon.jpg);
+	background-size: cover;
+    
+}
+
+.contenu-de-la-page{
+	
+	
+	
+	min-height: 400px;
+}
+
+.card{
+	height: 365px;
+	padding-top: 20em;
+	color: white;
+	margin: 15px;
+	overflow: hidden;
+	text-align: center;
+	font-weight: bold;
+}
+
+h1{
+	color: white;
+	font-size: 23px;
+	
+}
+.pra p{
+	color: white;
+	font-size: bold;
+    font-weight: 20em;
+	
+	
+}
+
+span{
+    color: red;
+}
+/* Inerview */
+
+
+.section p{
+    color: black;
+}
+
+
+.image-du-haut img{
+    min-height: 100vh;
+    
+     /* pour que l'image couvre lespace reserve par le width et le height*/
+    
+    background-size: cover;
+    /* pour que la partie visible soit a partie du bas, cest pour ca que j;ai mis a 100%*/
+}
+
+.menu-du-site{
+    margin-top: -10px;
+    background: rgb(9, 34, 118);
+    
+}
+
+.bar-de-navigation{
+    align-items:;
+    
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.liens{
+    list-style-type: none;
+    display: flex;
+
+}
+
+.liens li{
+    padding: 18px;
+    margin: 0 20px;
+}
+.liens li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.liens li a:hover{
+    background-color: red;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: transform .4s;
+
+}
+
+.contenu-de-la-page{
+    width: auto;
+    margin: 50px ;
+    
+}
+.contenu-de-la-page img{
+    width: 150px;
+    
+}
+.contenu-de-la-page p{
+    color: #fff;
+    
+
+}
+
+.inter p{
+    color: black;
+    text-align: center;
+    padding-left: 50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+/*--------- Exposition -------*/
+.images img{
+    
+    width: 20rem;
+   display: left;
+    border-radius: 15px;
+}
+
+/*-----------------photo-------------------------*/
+.photogall img{
+    width: 20em;
+    height: auto;
+    margin: 25px 0 50px 25px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+/*-----------------exposition----------------*/
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+p{
+    margin: 15px 0;
+    font-size: 1.6rem;
+    text-align: justify;
+    ;
+}
+
+footer{
+    padding: 25px 0;
+    background: rgb(2, 29, 116);
+}
+
+footer p{
+    text-align: center;
+    color: #fff;
+}
+/* A propos */
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.images img{
+    
+}
